@@ -2,7 +2,19 @@
     <head>
         <title>FloripaMaisTec</title>
     </head>
+
     <body>
-        
+        <form onsubmit="login(event)">
+            <input placeholder="E-mail" type="email">
+            <input placeholder="Senha" type="password">
+            <button type="submit">Entrar</button>
+        </form>    
+
+
+        <script>
+            function login(event) {
+                event.preventDefault()
+            }
+        </script>
     </body>
 </html>
